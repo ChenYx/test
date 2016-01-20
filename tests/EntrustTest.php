@@ -22,6 +22,7 @@ class EntrustTest extends PHPUnit_Framework_TestCase
             $this->assertNull($filterClosure());
 
             return true;
+
         };
 
         $this->abortFilterTest = function($filterClosure) {
